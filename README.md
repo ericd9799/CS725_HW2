@@ -19,3 +19,4 @@ Under "Finding issues in other columns", identify and report on issues that you 
 - In the established column, there are 6233 entries contains more than just a year of establishment. Within the 6233 entries, there are entries that are in date format, or contains a year and a message.
 
 Under "Exploring the data with scatter plots", export the endowment(x) vs. numStudents(y) plot, save it into your Gitlab project, and insert the image into your project README.md. Is there a correlation between endowment and number of students?
+![alt text](EndowmentVsNumStudent.png)
