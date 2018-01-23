@@ -20,3 +20,7 @@ Under "Finding issues in other columns", identify and report on issues that you 
 
 Under "Exploring the data with scatter plots", export the endowment(x) vs. numStudents(y) plot, save it into your Gitlab project, and insert the image into your project README.md. Is there a correlation between endowment and number of students?
 ![alt text](EndowmentVsNumStudent.png)
+- No there is no correlation between the number of students and the amount for endowment. I found there were 2 entries where the number of students were between 28 and 44, and the listed endowment 700 million and 5.27 billion.
+
+After completing the "Geocoding names and addresses" section, export your cleaned data file as a CSV (comma-separated value) file and add this file to your Gitlab project. How many rows did you end up with?
+- I ended up with 61 entires.
