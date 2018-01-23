@@ -29,4 +29,7 @@ Eric Diep, CS725, Spring 2018
 - I ended up with 61 entires.
 
 # Is the 27 Club Real? 
-- I found there were 25 entries where musicians died at the approximate age of 27.
+After my analysis and research, I found there were 25 entries where musicians died at the approximate age of 27.
+
+After creating a project and uploading the Musician Excel file. For my analysis of the data, I first created a cluster on the name of the artist to check if there was any artist that had different formats for their name. I went through the different clustering methods, and keying functions to clean up as much of the musician's name as possible.
+When performing the cluster and edit, I noticed a musician can have multiple records. I decided to dedupilcate the records. I sorted the records according to the name of the artist, and reordered the list. Then I used the selection blank down to remove duplicate names. Afterwards, I used a custom facet on the name column to search for the entries where the name is now blank. When I found the entries with blank in the name field, I selected to remove all entries where the name field was blank.
