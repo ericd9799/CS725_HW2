@@ -29,3 +29,4 @@ Eric Diep, CS725, Spring 2018
 - I ended up with 61 entires.
 
 # Is the 27 Club Real? 
+- I found there were 25 entries where musicians died at the approximate age of 27.
