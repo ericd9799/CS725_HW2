@@ -27,12 +27,12 @@ I changed the method selection to "nearest neighbor", distance function selectio
 ## Under "Finding issues in other columns", identify and report on issues that you find in at least one other column (other than the country column shown in the tutorial).
 - In the established column, there are 6233 entries contains more than just a year of establishment. Within the 6233 entries, there are entries that are in date format, or contains a year and a message.
 
-## Under "Exploring the data with scatter plots", export the endowment(x) vs. numStudents(y) plot, save it into your Gitlab project, and insert the image into your project README.md. Is there a correlation between endowment and number of students?
+## Under "Exploring the data with scatter plots", export the endowment(x) vs. numStudents(y) plot. Is there a correlation between endowment and number of students?
 ![alt text](EndowmentVsNumStudent.png)
 - I did not find any correlation between the number of students and the amount for endowment. There is no correlation between number of students and the amount for endowment because I found 2 entries where the number of students were 28 and 44, and the listed endowment 700 million and 5.27 billion, respectively.
 
 ## After completing the "Geocoding names and addresses" section, export your cleaned data file as a CSV (comma-separated value) file and add this file to your Gitlab project. How many rows did you end up with?
-- I ended up with 61 entires.
+- After completing the tutorial, I ended up with 61 entires.
 
 # Is the 27 Club Real? 
 After my analysis and research, I found there were 25 entries where musicians died at the approximate age of 27.
