@@ -2,17 +2,23 @@ Eric Diep, CS725, Spring 2018
 
 # Tutorial - University Data
 ## Under "Clean up country names", what other countries had issues with spelling?
-I changed the method selection to "nearest neighbor", distance function selection to "PPM", and increased value of radius and/or block chars.
+Following the tutorial, when the method selection is "key collision" and keying function selection is "fingerprint".
+- United States had variations of "USA", "U.S.A.", "US", "U.S.", "United States" and "United States )".
+
+When the method selection was the same and the key function selection was changed to metaphone3
+- United States had variations of "United States", "United States of America", and "United States )".
+- USA had variations of "USA", "U.S.A.", "US", "U.S."
+
+I changed the method selection to "key collision" and key function to "colonge-phonetic".
+- Russia had variations of "Rossija" or Russia
+
+I changed the method selection to "nearest neighbor", distance function selection to "PPM", and increased the value of radius and/or block chars.
 - Netherlands had variations of "Netherlands" or "the Netherlands". 
 - United Kingdom had variations of "United Kingdom", "England, United Kingdom", or "Scotland, United Kingdom".
 - England had variations of "England" or "England, UK".
 - Scotland had variations of "Scotland" or "Scotland, UK".
 - Canada had variations of "Canada" or "Canada B1P 6L2".
 - Russian Federation had variations of "Russian Federation" or "Russia".
-
-I changed the method selection to "key collision" and key function to "colonge-phonetic".
-- Russia had variations of "Rossija" or Russia
-
 
 ## Under "Clean up values for the endowment", report the number of entries that used the term "million" or "Million" in the endowment column. Also report the number that used the word "billion" or "Billion".
 - 1379 entires used the term "million" or "Million" in the endowment column.
